@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="style.css">
+        <title>Usando o Terminal</title>
+        <style>
+            * {
+                box-sizing: border-box;
+                margin: 0px;
+                padding: 0px;
+            }
+
+            a:visited {
+                color: black;
+            }
+
+            body {
+                background: tan;
+            }
+
+            header, main, footer {
+                background: white;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                margin: 0px auto;
+                max-width: 90%;
+            }
+
+            header {
+                border-radius: 10px 10px 0px 0px;
+                margin: 5px auto 0px auto;
+                padding: 5px;
+            }
+            header > h1 {
+                font-size: 38px;
+            }
+
+            main {
+                margin: 5px auto 10px auto;
+                padding: 5px;
+            }
+            main > h1 {
+                font-size: 28px;
+                margin: 0px 0px 20px 0px;
+                text-align: center;
+            }
+            main > p {
+                text-align: justify;
+            }
+
+            footer {
+                border-radius: 0px 0px 10px 10px;
+                margin: 0px auto 5px auto;
+                padding: 5px;
+                text-align: center;
+            }
+
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Usando o Terminal</h1>
+        </header>
+        <main>
+            <h1>Terminal no Windows</h1>
+            <p>O Terminal no Windows é uma ferramenta imprescindível na vida dos profissionais da TI, do programador ao profissional de redes, pois é uma ferramenta capaz de fazer instalações, configurações, checar dados e navegar pelo sistema. O terminal não é uma novidade para ninguém no mundo da programação, ele sempre esteve ali e sempre estará, no entanto, não são todos que gostam ou sabem usá-lo. Caso esse seja seu caso, vamos te ajudar nesse artigo.</p>
+            <br>
+            <h2>CMD vs PowerShell</h2>
+            <br>
+            <p>Atualmente, encontramos no <strong>Windows</strong> dois terminais diferentes. O <strong>CMD</strong> (ou Prompt de Comando) é o mais clássico, com fundo preto. Já o <strong>Windows</strong> <strong>PowerShell</strong> é mais recente e tem o fundo azul. Em resumo, o <strong>PowerShell</strong> é uma evolução do CMD, fazendo tudo o que o CMD faz e um pouco mais. Como por exemplo, usar alguns comandos próprios de sistemas baseados em Unix, ou seja, Linux e MacOS.</p>
+            <br>
+            <h2>Conhecendo o CMD</h2>
+            <br>
+            <p>Para abrir o CMD digite “CMD” ou “Prompt” no menu Iniciar:</p>
+            <br>
+            <p>Quando aberto dessa forma ele apontará diretamente para a pasta do seu usuário. Em outras palavras, no início o CMD vai apontar para o seguinte caminho: <strong>C</strong>, que é o HD principal da sua máquina, onde o Windows está instalado; e <strong>Users</strong>, que é a pasta de usuários e seu nome de usuário.</p>
+            <br>
+            <p>Para demonstrar melhor, vou usar o comando “<strong>dir</strong>“, que serve para mostrar as pastas e arquivos que estão na pasta apontada pelo terminal no Windows. Para utilizar o comando basta digitar e apertar Enter.</p>
+            <br>
+            <p>Há ainda outra forma de abrir o terminal, mas dessa vez escolhendo a pasta onde ele irá apontar. Para isso, abra a pasta escolhida para iniciar o terminal no Windows, segure o SHIFT e clique com o botão DIREITO do mouse em alguma parte em branco da pasta. Atenção! Não clique em cima de nenhum arquivo ou pasta dentro daquela pasta.</p>
+            <br>
+            <p>Dessa forma, você abrirá o PowerShell, mas como ele funciona da mesma forma não tem problema nenhum. Como resultado temos o terminal aberto já apontando para a pasta em questão para a qual navegamos.</p>
+            <br>
+            <h2>Navegando pelo sistema com o terminal</h2>
+            <br>
+            <p>Vamos usar dois comandos para navegar pelas pastas do sistema: os comandos “<strong>cd</strong>” e “dir”. O “cd” é como um duplo clique no mouse, ou seja, ele abre a pasta, além de servir para voltar para trás.</p>
+            <br>
+            <p>Como ambos os terminais funcionam de forma semelhante, a partir daqui usarei apenas o PowerShell.</p>
+            <br>
+            <p>Com o terminal aberto na pasta selecionada, podemos usar o comando “<strong>dir</strong>” para descobrir o que há nela e poder avançar ou não. Para exemplificar melhor, começarei a partir da minha pasta “Projeto”, que fica no meu HD secundário.</p>
+            <br>
+            <p>Como estamos no PowerShell, os comandos do Linux também funcionam. O comando equivalente ao “dir” no Linux é o “ls”, então também podemos usá-lo:</p>
+            <br>
+            <h2>cd + nome da pasta</h2>
+            <br>
+            <p>A partir daqui podemos usar o comando “cd + nome da pasta” para avançar para dentro de uma pasta. Nesse caso, você deve escrever o nome correto da pasta e ela deve estar dentro da pasta atual onde você está, por exemplo:</p>
+            <br>
+            <p>Dentro da nova pasta podemos utilizar o comando “dir” novamente para verificar o que há nela.</p>
+            <br>
+            <h2>cd ..</h2>
+            <br>
+            <p>Podemos usar o comando “cd ..” para retornar uma pasta atrás da atual. Esse comando é sempre o mesmo, você pode usá-lo sempre que quiser ir para a pasta anterior.</p>
+            <br>
+            <h2>clear</h2>
+            <br>
+            <p>Outro comando super interessante é o “cls” ou “clear”. Ele limpa todos os comandos listados, melhorando a visualização no terminal. Lembrando que ele limpa apenas os comandos, nenhum efeito de comando anterior é perdido.</p>
+            <br>
+            <h2>mkdir</h2>
+            <p>Você também pode criar uma nova pasta a partir do terminal com o comando “mkdir”. No exemplo a seguir, usei o “dir” para mostrar as pastas contidas na pasta “Projetos”, criei uma nova pasta, mostrei novamente as pastas com o “dir”, para mostrar que foi adicionada uma nova pasta lá, e entrei na pasta recém criada com o comando “cd”.</p>
+            <br>
+            <h2>del + nome da pasta/arquivo</h2>
+            <br>
+            <p>Você pode também apagar arquivos e pastas com o comando “del + nome da pasta/arquivo”.</p>
+            <br>
+            <h2>Help</h2>
+            <br>
+            <p>Um outro comando super válido de se utilizar é o ‘help’, pois ele lista todos os comandos que você pode utilizar. É muito bom para quem não quer ir pesquisar em outro local sobre os demais comandos do terminal. Basta utilizar o comando ‘help’ dentro dele mesmo e pronto!</p>
+            <br>
+            <h2>Outros usos</h2>
+            <br>
+            <p>Várias tecnologias quando instaladas na sua máquina têm o potencial de serem utilizadas pelo terminal. Um exemplo disso é o NodeJS, uma vez instalada na sua máquina você pode utilizar comandos com o ‘npm’ ou ‘node’, que indicam que você estará utilizando aquele software.</p>
+            <br>
+            <p>Lembrando que no caso do Node é instalado um terminal próprio do Node que recebe comandos JavaScript e esse terminal do Node NÃO funciona como o CMD e o PowerShell do Windows, então não abram ele e tentem utilizar pois isso irá gerar erros nos comandos.</p>
+            <br>
+            <p>Outro caso é o Flutter e o Dart, que também se utilizam do terminal após instalados na máquina, sendo capazes de criar projetos, se atualizar dentre outras coisas.</p>
+            <br>
+            <p>Esses outro comandos variam de tecnologia para tecnologia, de versão para versão, então não irei dar tantos exemplos aqui, mas sempre que se instalar uma nova tecnologia é bom lembrar de verificar e aprender quais comandos aquela tecnologia possui no seu terminal.</p>
+            <br>
+            <p>Esse pequeno guia é apenas um compilado de pequenas dicas para pessoas que tiveram pouco ou nenhum contato com o terminal consigam lidar de forma mais efetiva com essa ferramenta tão importante. E que também tenham menos medo dele! Espero ter ajudado. Bons estudos e até a próxima!</p>
+        </main>
+        <footer>
+            <p>&copy Todos os direitos reservados | exercícios praticados pelo aluno <a href="https://github.com/Guilherme-Artigas" target="_blank"><strong>Guilherme Artigas</strong></a></p>
+        </footer>
+        <script>
+            
+        </script>
+    </body>
+</html>
