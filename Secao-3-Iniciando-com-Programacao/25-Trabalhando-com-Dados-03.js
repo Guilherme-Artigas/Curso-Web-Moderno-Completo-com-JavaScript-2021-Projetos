@@ -1,4 +1,4 @@
-var idade = 30;
+var idade = 30; // Number
 var idade2;
-var nome = 'Guilherme';
-var chovendo = true;
+var nome = 'Guilherme'; // String
+var chovendo = true; // Boolean
