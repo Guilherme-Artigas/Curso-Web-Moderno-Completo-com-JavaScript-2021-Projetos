@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
         <link rel="stylesheet" href="style.css">
-        <title>Document</title>
+        <title>Tipos em JavaScript: Array</title>
         <style>
             * {
                 box-sizing: border-box;
@@ -73,11 +73,32 @@
     </head>
     <body>
         <header>
-            <h1>Teste</h1>
+            <h1>Tipos em JavaScript: Array</h1>
         </header>
         <main>
-            <h1>Teste</h1>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora praesentium incidunt reiciendis exercitationem, similique quis ducimus, itaque accusantium asperiores aliquid facere illo nobis est fugiat commodi suscipit architecto? Expedita, ratione.</p>
+            <h1>Array</h1>
+
+            <p>Nessa aula aprendemos sobre a importância da estrutura array dentro da linguagem, ela é uma estrutura unidirecional que conseguimos agrupar vários dados dentro de uma única estrutura, pode ser números, pode ser letras ou palavras, nomes, idade de muitas pessoas, enfim… serve para auxiliar programadores a desenvolver as aplicações de forma mais eficiente. O acesso de cada dado contido dentro de array é feito por índice.</p>
+
+            <p>Como JavaScript é uma linguagem fracamente tipada, a estrutura de array aceita vários valores de vários tipos diferentes, número, String, Boolean entre outros, o professor comentou que apesar de conseguirmos fazer isso, não é considerada uma boa prática, o ideal é criar cada estrutura contendo um tipo de dado.</p>
+
+            <h2>Exemplos</h2>
+
+            <p><code>const valores = [7.7, 8.9, 6.3, 9.2];</code></p>
+
+            <p><code>console.log(valores[0], valores[3]);</code></p>
+            <span>(Retorno do console será: 7.7, 9.2)</span>
+
+            <p><code>console.log(valores[4]);</code></p>
+            <span>(Esse exemplo foi dado para reforçar que JavaScript não retorna erros, como em outras linguagens.)</span>
+
+            <p><code>valores[4] = 10;</code> // Atribuindo um novo valor de forma literal.</p>
+
+            <p><code>console.log(valores);</code></p>
+            <span>(Retorno do console será: 7.7, 8.9, 6.3, 9.2, 10)</span>
+
+            <p><code>console.log(valores.length)</code></p>
+            <span>(Retorna no console, o tamanho do vetor, nesse caso: 5 posições/índices)</span>
         </main>
         <footer>
             <p>&copy Todos os direitos reservados | exercícios praticados pelo aluno <a href="https://github.com/Guilherme-Artigas" target="_blank"><strong>Guilherme Artigas</strong></a></p>
