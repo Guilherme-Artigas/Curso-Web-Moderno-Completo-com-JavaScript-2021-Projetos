@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
         <link rel="stylesheet" href="style.css">
-        <title>Document</title>
+        <title>Usando a Estrutura Condicional switch () {}</title>
         <style>
             * {
                 box-sizing: border-box;
@@ -19,7 +19,7 @@
             }
 
             body {
-                /* background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(97,186,255,1) 0%, rgba(166,239,253,1) 90.1% ); */
+                background: darkgray;
             }
 
             header, main, footer {
@@ -73,12 +73,16 @@
     </head>
     <body>
         <header>
-            <h1>Teste</h1>
+            <h1>Usando a Estrutura Condicional switch () {}</h1>
         </header>
         <main>
-            <h1>Teste</h1>
+            <h1>SWITCH</h1>
             
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora praesentium incidunt reiciendis exercitationem, similique quis ducimus, itaque accusantium asperiores aliquid facere illo nobis est fugiat commodi suscipit architecto? Expedita, ratione.</p>
+            <p>Se a condição for correspondida, o programa executa as instruções associadas. Se múltiplos casos corresponderem o valor, o primeiro caso que corresponder é selecionado, mesmo se os casos não forem iguais entre si.</p>
+
+            <p>O programa procura por um caso o qual a expressão avalie como tendo o mesmo valor que o input da expressão (usando a comparação de igualdade estrita (===)). Transferindo assim o controle para a cláusula encontrada e em seguida executando as instruções associadas. Caso nenhum case seja correspondido, então o programa procura pela cláusula opcional default, que, se encontrado, tem o controle transferido a ele, executando suas instruções associadas. Se não houver uma cláusula default, o programa continua a execução da instrução seguindo para o final do switch. Por convenção, a cláusula default é a última, mas não é algo obrigatório.</p>
+
+            <p>A instrução opcional break associada com cada case garante que o programa saia da condicional switch assim que a instrução correspondente for executada e executa a instrução que segue logo após o switch. Caso break seja omitido, o programa continua a execução para a próxima instrução dentro de switch.</p>
         </main>
         <footer>
             <p>&copy Todos os direitos reservados | exercícios praticados pelo aluno <a href="https://github.com/Guilherme-Artigas" target="_blank"><strong>Guilherme Artigas</strong></a></p>
