@@ -1,0 +1,3 @@
+// Em muitos casos, o valor this é determinado pela forma como a função é chamada. Ele não pode ser assinado durante a execução, e isso pode ser diferente a cada vez que a função é chamada. ES5 introduziu o método bind para estabelecer o valor this da função, independentemente de como ela seja chamada, e ECMAScript2015 introduziu o arrow funtions, cujo this é lexicamente delimitado (o valor this é estabelecido segundo o escopo de execução no qual esta inserido).
+
+// São dois principais motivos, primeiro pela sintaxe reduzida, e segundo e mais importante é que o this dentro de uma função arrow não varia.
