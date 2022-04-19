@@ -8,3 +8,4 @@ function Pessoa (p1) {
 const pessoa_1 = new Pessoa('Guilherme');
 pessoa_1.falar();
 
+// O professor mostrou 3 formas de se criar novos objetos.
