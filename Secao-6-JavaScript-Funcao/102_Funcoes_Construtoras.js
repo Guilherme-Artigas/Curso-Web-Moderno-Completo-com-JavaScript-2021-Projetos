@@ -27,3 +27,5 @@ ferrari.acelerar();
 ferrari.acelerar();
 ferrari.acelerar();
 console.log(`Velocidade atual Ferrari, acelerando 4x = ${ferrari.pegar_Velocidade_Atual()} km/h`);
+
+// As funções construtoras em javascript são como as classes do java, diferenciando apenas pela sintaxe. Em questão de funcionamento, tanto funções construtoras no javacript quanto classes no java tem a mesma utilidade: servir de molde para a criação de objetos.
