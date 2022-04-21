@@ -30,4 +30,4 @@ function formula_Bhaskara (ax2, bx, c) {
     };
 };
 
-console.log(formula_Bhaskara(2, -16, -18));
+console.log(formula_Bhaskara(3, -5, 12));
