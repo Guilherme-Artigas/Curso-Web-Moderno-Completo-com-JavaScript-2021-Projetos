@@ -7,3 +7,12 @@ function dividir (p1, p2) {
 };
 
 dividir(20, 3);
+
+// Versão da resolução desse exercício utilizando arrow function
+
+const dividir_2 = (dividendo, divisor, quociente) => {
+    quociente = dividendo / divisor;
+    return console.log(quociente.toFixed(1));
+};
+
+dividir_2(20, 3);
